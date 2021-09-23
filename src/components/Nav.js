@@ -6,7 +6,7 @@ const Nav = () => {
     <>
       <nav className="navbar navbar-expand-lg navbar-light ">
         <div className="container-fluid ">
-          <a className="navbar-brand " href="#">
+          <a className="ms-5 navbar-brand " href="#">
             C O N V E R T I F Y
           </a>
 

@@ -14,21 +14,21 @@ const Section = () => {
   return (
     <>
       
-        <div classNameName="row mt-5">
+        <div className="row mt-5">
          
-          <div classNameName="col-lg-6 text-center d-flex justify-content-center align-items-center">
+          <div className="col-lg-6 text-center d-flex justify-content-center align-items-center">
             <form onSubmit={handleSubmit}>
               <input
                 type="text"
-                classNameName="p-1"
+                className="p-1"
                 placeholder="paste url here"
                 style={{ border: "none", borderBottom: "2px solid #1890ff", width:"350px" }}
                 onChange={(e) => setUrl(e.target.value)}
               />
-              <button classNameName="btn btn-primary p-2 ms-2">convert</button>
+              <button className="btn btn-primary p-2 ms-2">convert</button>
             </form>
             {key && (
-              <div classNameName="d-flex">
+              <div className="d-flex">
                 <iframe
                   title="button"
                   style={{
@@ -56,7 +56,7 @@ const Section = () => {
               </div>
             )}
           </div>
-          <div classNameName="col-lg-6 text-center d-flex  justify-content-center">
+          <div className="col-lg-6 text-center d-flex  justify-content-center">
             <div className="card" style={{width:"600px"}}>
               <img src={logo1} className="card-img-top img-fluid" alt="..." />
               <div className="card-body">
